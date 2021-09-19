@@ -1,0 +1,27 @@
+{
+  "name": "@toaztr/ui-components",
+  "version": "0.0.1",
+  "description": "Toaztr UI Components",
+  "author": "Toaztr SAS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toaztr/angular-libraries.git"
+  },
+  "keywords": [
+    "api",
+    "fintech",
+    "toaztr"
+  ],
+  "bugs": {
+    "url": "https://github.com/Toaztr/angular-libraries/issues"
+  },
+  "homepage": "https://github.com/Toaztr/angular-libraries#readme",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
