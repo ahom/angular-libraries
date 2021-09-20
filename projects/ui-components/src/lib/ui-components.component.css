@@ -7,6 +7,7 @@
   width: 400px;
   height: 690px;
   position: relative;
+  line-height: 1;
 }
 .pricingCard:hover{
   border-top: 2px solid #f6576e;
