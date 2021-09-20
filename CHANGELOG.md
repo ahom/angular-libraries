@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.0.0...v1.1.0) (2021-09-20)
+
+
+### Bug Fixes
+
+* line-height ([4f8ee93](https://www.github.com/Toaztr/angular-libraries/commit/4f8ee938c7bc3fbe58e231126b9dc87c92258ae5))
+
+
+### Miscellaneous Chores
+
+* release 1.1.0 ([da22c19](https://www.github.com/Toaztr/angular-libraries/commit/da22c19e54d5e2f3d06e9d5b289805af6207f4ba))
+
 ## 1.0.0 (2021-09-19)
 
 
