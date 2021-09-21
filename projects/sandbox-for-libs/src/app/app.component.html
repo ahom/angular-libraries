@@ -1,9 +1,11 @@
 
-<div style="display: flex; justify-content: space-evenly; height: 100px">
+<div style="display: flex; justify-content: space-evenly;">
   <tzr-cmp-solo-pricing (planSelected)="alert('solo selected');"></tzr-cmp-solo-pricing>
   <tzr-cmp-team-pricing (planSelected)="alert('team selected');"></tzr-cmp-team-pricing>
   <tzr-cmp-enterprise-pricing></tzr-cmp-enterprise-pricing>
 </div>
+
+
 
 <div style="display: flex; justify-content: space-evenly;">
   <tzr-cmp-api-start-pricing (planSelected)="alert('start selected');"></tzr-cmp-api-start-pricing>
@@ -12,3 +14,38 @@
 
 
 
+<!-- <div class="pricingCard">
+  <div class="pricingCard-header">
+      <span class="heading">
+          Forfait Solo
+      </span>
+  </div>
+  <div class="pricing-plans">
+      <span class="price-value">
+          <span class="value">19</span>
+          <span class="currency">,99€</span>
+          <span class="month"> /mois </span>
+          <br>
+          <span class="tax"> hors taxe</span>
+      </span>
+      <span class="subtitle">Pour l'entrepreneur individuel</span>
+  </div>
+  <div class="pricingContent">
+      <div class="pricing-description">1 licence d’accès personnelle, incluant:</div>
+      <ul>
+          <li>Calcul de budget</li>
+          <li>Calcul de financement</li>
+          <li>Rachat de crédit</li>
+          <li>Simulation d’un dispositif Pinel</li>
+          <li>Calcul des frais de notaire</li>
+          <li>Gestion des dossiers emprunteur</li>
+          <li>Gestion des partenaires</li>
+          <li>Génération de mandat</li>
+          <li>Génération de la fiche conseil</li>
+          <li>Génération de la carcasse banque</li>
+      </ul>
+  </div>
+  <div class="pricingCard-sign-up">
+      <a href="#" class="btn btn-block btn-default" >Choisir ce plan</a>
+  </div>
+</div> -->

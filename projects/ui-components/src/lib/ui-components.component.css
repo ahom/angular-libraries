@@ -6,8 +6,9 @@
   transition: all 0.4s ease-in-out 0s;
   width: 400px;
   height: 690px;
-  position: relative;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
 }
 .pricingCard:hover{
   border-top: 2px solid #f6576e;
@@ -72,7 +73,7 @@
 }
 
 .pricingCard .pricingContent .pricing-description {
-  position: relative;
+  /* position: relative; */
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -97,9 +98,7 @@
 .pricingCard .pricingCard-sign-up {
   border-top: 1px solid #dbdbdb;
   padding: 40px 0;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+  margin-top: auto;
 }
 
 .pricingCard .btn-block {
