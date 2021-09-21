@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.1.0...v1.2.0) (2021-09-21)
+
+
+### Bug Fixes
+
+* css ([269d6e1](https://www.github.com/Toaztr/angular-libraries/commit/269d6e103f282c5bb47a1e5667a3734df3a5d1e8))
+
+
+### Miscellaneous Chores
+
+* release 1.2.0 ([a04ad28](https://www.github.com/Toaztr/angular-libraries/commit/a04ad2854a0795b6a38133336aaeb0d5499f1632))
+
 ## [1.1.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.0.0...v1.1.0) (2021-09-20)
 
 
