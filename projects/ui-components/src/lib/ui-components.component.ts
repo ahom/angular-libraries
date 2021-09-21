@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       ui-components works!
     </p>
   `,
-  styles: [ './ui-components.component.css']
+  styles: [ './ui-components.component.scss']
 })
 export class UiComponentsComponent implements OnInit {
 
