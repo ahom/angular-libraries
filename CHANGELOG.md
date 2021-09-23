@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.4.0...v1.5.0) (2021-09-23)
+
+
+### Miscellaneous Chores
+
+* release 1.5.0 ([1442dfd](https://www.github.com/Toaztr/angular-libraries/commit/1442dfd2e64e3477cb4b1f7e341812ac1470dee8))
+
 ## [1.4.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.3.0...v1.4.0) (2021-09-21)
 
 
