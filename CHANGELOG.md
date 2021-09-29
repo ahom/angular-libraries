@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.5.0...v1.6.0) (2021-09-29)
+
+
+### Features
+
+* Generic button ([dbb827e](https://www.github.com/Toaztr/angular-libraries/commit/dbb827eea67b04e5fe1b4aae9cf1feb98ae3e0d1))
+
+
+### Miscellaneous Chores
+
+* release 1.6.0 ([7da7f19](https://www.github.com/Toaztr/angular-libraries/commit/7da7f199cef2f6793e3753a5b89da346d6c0d216))
+
 ## [1.5.0](https://www.github.com/Toaztr/angular-libraries/compare/v1.4.0...v1.5.0) (2021-09-23)
 
 
