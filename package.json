@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "sync": "git remote -v | grep upstream || git remote add upstream git@github.com:Toaztr/commons.git && git checkout master && git fetch upstream master && git rebase upstream/master && git push origin"
+    "sync": "git remote -v | grep upstream || git remote add upstream git@github.com:Toaztr/angular-libraries.git && git checkout master && git fetch upstream master && git rebase upstream/master && git push origin"
   },
   "private": true,
   "dependencies": {
