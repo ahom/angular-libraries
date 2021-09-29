@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'sandbox-for-libs';
-
   alert(text: string) {
     console.log("text: ", text);
   }

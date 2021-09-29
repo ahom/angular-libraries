@@ -1,15 +1,20 @@
+<div style="display: flex; justify-content: center; background-color: red;">
+    <tzr-cmp-solo-pricing link="http://google.fr" btnText="Hello World" (planClicked)="alert('solo selected');">
+    </tzr-cmp-solo-pricing>
 
-<div style="display: flex; justify-content: space-evenly;">
-  <tzr-cmp-solo-pricing (planSelected)="alert('solo selected');"></tzr-cmp-solo-pricing>
-  <tzr-cmp-team-pricing (planSelected)="alert('team selected');"></tzr-cmp-team-pricing>
-  <tzr-cmp-enterprise-pricing></tzr-cmp-enterprise-pricing>
+    <tzr-cmp-team-pricing btnText="Choisir ce plan" (planClicked)="alert('team selected');">
+    </tzr-cmp-team-pricing>
+
+    <tzr-cmp-enterprise-pricing btnText="Bientot disponible"></tzr-cmp-enterprise-pricing>
+
 </div>
 
 
 
+
 <div style="display: flex; justify-content: space-evenly;">
-  <tzr-cmp-api-start-pricing (planSelected)="alert('start selected');"></tzr-cmp-api-start-pricing>
-  <tzr-cmp-api-enterprise-pricing></tzr-cmp-api-enterprise-pricing>
+    <!-- <tzr-cmp-api-start-pricing (planSelected)="alert('start selected');"></tzr-cmp-api-start-pricing>
+  <tzr-cmp-api-enterprise-pricing></tzr-cmp-api-enterprise-pricing> -->
 </div>
 
 

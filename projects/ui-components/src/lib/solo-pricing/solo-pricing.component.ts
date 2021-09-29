@@ -1,17 +1,25 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { BasePricingComponent } from '../base-pricing/base-pricing.component';
 
 @Component({
   selector: 'tzr-cmp-solo-pricing',
   templateUrl: './solo-pricing.component.html',
-  styleUrls: ['../ui-components.component.scss']
+  styleUrls: ['../base-pricing/base-pricing.component.scss']
 })
-export class SoloPricingComponent implements OnInit {
-
-  @Output() planSelected = new EventEmitter<void>();
+export class SoloPricingComponent extends BasePricingComponent  {
+  // export class SoloPricingComponent implements OnInit {
   
-  constructor() { }
-
-  ngOnInit(): void {
+  // @Input() link!: string;
+  // @Input() btnText!: string;
+  // @Output() planClicked = new EventEmitter<void>();
+  // public isBtnUsed = false;
+ 
+  constructor() { 
+    super();
   }
+
+  // ngOnInit(): void {
+  //   this.isBtnUsed = this.planClicked.observers.length > 0;
+  // }
 
 }

@@ -1,17 +1,15 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { BasePricingComponent } from '../base-pricing/base-pricing.component';
 
 @Component({
   selector: 'tzr-cmp-api-enterprise-pricing',
   templateUrl: './api-enterprise-pricing.component.html',
-  styleUrls: ['../ui-components.component.scss']
+  styleUrls: ['../base-pricing/base-pricing.component.scss']
 })
-export class ApiEnterprisePricingComponent implements OnInit {
-
-  @Output() planSelected = new EventEmitter<void>();
+export class ApiEnterprisePricingComponent extends BasePricingComponent {
   
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    super();
   }
 
 }

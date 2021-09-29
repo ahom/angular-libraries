@@ -30,7 +30,9 @@
         </ul>
     </div>
     <div class="pricingCard-sign-up">
-        <button (click)="planSelected.emit()">Choisir ce plan</button>
+        <a *ngIf="link" [href]="link">{{ btnText }}</a>
+        <button *ngIf="!link && isBtnUsed" (click)="planClicked.emit()">{{ btnText }}</button>
+        <button *ngIf="!isBtnUsed && !link" class="disabled">{{ btnText }}</button>
     </div>
 </div>
 
