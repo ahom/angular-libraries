@@ -15,8 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: '@toaztr/ui-components'
-          path: projects/ui-components
+          package-name: angular-libraries
   
   deliver-npm:
     runs-on: ubuntu-latest
@@ -34,7 +33,10 @@ jobs:
           path: ~/.npm
           key: ${{ runner.OS }}-node-${{ hashFiles('package-lock.json') }}
       - run: npm ci
+      - run: npm version ${{ needs.release-please.outputs.version_created }}
+        working-directory: ./projects/ui-components
       - run: npm run build
-      - run: npm publish dist/ui-components/ --access public
+      - run: npm publish --access public
+        working-directory: ./dist/ui-components
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
